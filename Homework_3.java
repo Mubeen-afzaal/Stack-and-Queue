@@ -8,9 +8,9 @@ public class Homework_3 {
 
     public static void main(String[] args) {
 
-        // --------------------
+        // -------------------
         // Stack
-        // --------------------
+        // -------------------
 
         IO.println("");
         IO.println("STACK DEMONSTRATION");
@@ -37,9 +37,9 @@ public class Homework_3 {
         IO.println("Is Stack Empty? ");
         IO.println(isStackEmpty()); //false
 
-        // --------------------
+        // -------------------
         // Queue
-        // --------------------
+        // -------------------
 
         IO.println("");
         IO.println("QUEUE DEMONSTRATION");
@@ -69,9 +69,9 @@ public class Homework_3 {
     }
 
 
-    // --------------------
+    // -------------------
     // Stack
-    // --------------------
+    // -------------------
 
     public static void push(int value) {
         stack[stackSize] = value;
@@ -94,9 +94,9 @@ public class Homework_3 {
     }
 
 
-    // --------------------
+    // -------------------
     // Queue
-    // --------------------
+    // -------------------
 
     public static void enqueue(int value) {
         queue[queueSize] = value;
