@@ -1,0 +1,112 @@
+Name: Mubeen Afzaal
+IDE / Editor: IntelliJ IDEA
+Programming Language: Java
+
+Part 2 -- ADT Questions
+Q1. What does ADT stands for?
+Abstract Data Type.
+
+Q2. In your own words, what is an Abstract Data Type?
+It basically describes what data structure should do and what operations it should have.
+
+Q3. What is the difference between an ADT and its Implementation?
+ADT describes WHAT data structure should do and Implementation is HOW data structure is actually built.
+
+Q4. Can two programmers create different implementations of the same ADT?
+Yes, as long as it follows same rules and operations.
+
+Q5. If one Programmer creates a stack using an array and another creates a Stack using a linked list,
+are both still Stacks? Explain Why.
+Yes, because they both follow Stack rules. Implementation is different but ADT is still same.
+
+
+Part 8 -- Stack Questions
+Q6. What does LIFO means?
+Last In First Out.
+
+Q7. Why did 55 get removed before 15?
+Because 55 was added last and in stack the last added element get removed first.
+
+Q8. If stack contains A B C D and D was added last, which item should pop() remove first?
+D
+
+Q9. Give one real-world or software example where Stack could be useful?
+A Stack can be used for a browser's Back button. The most recently visited page is the first page you
+return to when you press Back.
+
+
+Part 14 -- Queue Questions
+Q10. What does FIFO mean?
+First In First Out.
+
+Q11. Why was 15 removed before 55?
+Because 15 was added first and in queue the first element added gets removed first.
+
+Q12. If customers enter a line in this order: Alex Maria John Sarah, who would leave Queue first?
+Alex.
+
+Q13. Give one real-world or software example where Queue could be useful?
+A queue could be used at grocery stores where the first comes first served at tyhe checkout.
+
+
+Part 15 -- Stack vs Queue
+Scenario 1 - Undo Feature --> Stack, because LIFO
+Scenario 2 - Printer --> Queue, because FIFO
+Scenario 3 - Browser back button --> Github should appear first and it resembles Stack,
+Scenario 4 - Customer Service --> Queue
+Scenario 5 - Plates --> Stack because the first one eventually gets stacked to the bottom.
+
+
+Part 16 -- Predict the Output
+STACK
+        push(7)
+        push(12)
+        push(18)
+        pop()
+        push(22)
+        peek()
+
+Q14. What does pop() return?
+18
+
+Q15. What does final peek() return?
+22
+
+QUEUE
+        enqueue(7)
+        enqueue(12)
+        enqueue(18)
+        dequeue()
+        enqueue(22)
+        peek()
+
+Q16. What does dequeue() return?
+7
+
+Q17. What does final peek() return?
+12
+
+
+Part 17 -- Compare the ADTs
+| Feature            | Stack           | Queue            |
+| ------------------ | --------------- | ---------------- |
+| Rule               | LIFO            | FIFO             |
+| Add operation      | push()          | enqueue()        |
+| Remove operation   | pop()           | dequeue()        |
+| View next item     | peek()          | peek()           |
+| First item removed | Last item added | First item added |
+
+
+Part 18 -- Connect the ADT to the Implementation
+Q18. If you implement a Stack using an array, which part is the ADT?
+Building a Stack.
+
+Q19. Which part is the implementation?
+The code and array used to store the values.
+
+Q20. If you replace the array with a linked list but keep the same Stack operations, did the ADT change? Explain.
+No, because stack operations are the same, only implementation was changed.
+
+
+
+
